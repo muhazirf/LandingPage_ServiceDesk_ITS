@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://servicedesk.its.ac.id/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Service Desk | Layanan Aspirasi ITS</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link href="./Service Desk _ Layanan Aspirasi ITS_files/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./Service Desk _ Layanan Aspirasi ITS_files/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+
+    <!-- Styles -->
+    <link href="./Service Desk _ Layanan Aspirasi ITS_files/client.css" rel="stylesheet" type="text/css">
+    <link href="./Service Desk _ Layanan Aspirasi ITS_files/OpenSans.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Service Desk _ Layanan Aspirasi ITS_files/jQueryUI.css" type="text/css">
+
+    <!-- SCRIPTS -->
+    <!-- <script async="" src="./Service Desk _ Layanan Aspirasi ITS_files/widget-min.js.download"
+        license="652e8a5e206cc90012329aa6"></script>
+    <script type="text/javascript" async="" src="./Service Desk _ Layanan Aspirasi ITS_files/recaptcha__en.js.download"
+        crossorigin="anonymous"
+        integrity="sha384-IYj915Kg2THoBNjmdS/foxE54s1oGyWWbVt0UcmBj0QjH9eaYwzN4srfPxOlRivE"></script>
+    <script type="text/javascript">
+        var global_base_url = "https://servicedesk.its.ac.id/index.php/";
+        var global_hash = "ed48b3156da543e75d1b0f63d5248ae1";
+    </script>
+    <script src="./Service Desk _ Layanan Aspirasi ITS_files/jquery.min.js.download"></script>
+    <script src="./Service Desk _ Layanan Aspirasi ITS_files/jquery-ui.min.js.download"></script>
+
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/datatables.min.css"> -->
+    <script type="text/javascript"
+        src="./Service Desk _ Layanan Aspirasi ITS_files/datatables.min.js.download"></script>
+
+    <script src="./Service Desk _ Layanan Aspirasi ITS_files/ckeditor.js.download"></script>
+    <style>
+        .cke {
+            visibility: hidden;
+        }
+    </style>
+    <script type="text/javascript" src="./Service Desk _ Layanan Aspirasi ITS_files/global.js.download"></script>
+
+    <script type="text/javascript">
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+    </script>
+    <script src="./Service Desk _ Layanan Aspirasi ITS_files/bootstrap.min.js.download"></script>
+
+
+    <!-- Favicon: http://realfavicongenerator.net -->
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="https://servicedesk.its.ac.id/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+        href="https://servicedesk.its.ac.id/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="https://servicedesk.its.ac.id/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="https://servicedesk.its.ac.id/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="https://servicedesk.its.ac.id/images/favicon/favicon-32x32.png"
+        sizes="32x32">
+    <link rel="icon" type="image/png" href="https://servicedesk.its.ac.id/images/favicon/favicon-16x16.png"
+        sizes="16x16">
+    <link rel="manifest" href="https://servicedesk.its.ac.id/images/favicon/manifest.json">
+    <link rel="mask-icon" href="https://servicedesk.its.ac.id/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://servicedesk.its.ac.id/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://servicedesk.its.ac.id/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script type="text/javascript">
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <!-- CODE INCLUDES -->
+    <script src="./Service Desk _ Layanan Aspirasi ITS_files/api.js.download"></script>
+    <script type="text/javascript" src="./Service Desk _ Layanan Aspirasi ITS_files/config.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/editor.css">
+    <script type="text/javascript" src="./Service Desk _ Layanan Aspirasi ITS_files/en.js.download"></script>
+    <script type="text/javascript" src="./Service Desk _ Layanan Aspirasi ITS_files/styles.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/scayt.css">
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/dialog.css">
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/tableselection.css">
+    <link rel="stylesheet" type="text/css" href="./Service Desk _ Layanan Aspirasi ITS_files/wsc.css">
+    <link href="./Service Desk _ Layanan Aspirasi ITS_files/style.css" rel="stylesheet">
+
+
+    <!--landing page css -->
+    <link rel="stylesheet" href="assets/lib/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/dashforge.min.css">
+    <link rel="stylesheet" href="assets/css/dashforge.profile.css">
+    <link rel="stylesheet" href="assets/css/dashforge.customs.css">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body class="">
+    <div class="container-fluid header-bg">
+
+        <div class="container top-bar">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="user-bar-segment">
+                        <!-- <a href="https://servicedesk.its.ac.id/index.php/login">Login</a> / <a href="https://servicedesk.its.ac.id/index.php/register">Register</a>
+ -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-12 header-area">
+                    <div class="logo-area">
+                        <a href="https://servicedesk.its.ac.id/index.php"
+                            title="Service Desk | Layanan Aspirasi ITS"><img
+                                src="./Service Desk _ Layanan Aspirasi ITS_files/d2526049603e63282dbfe84015189940.png"
+                                width="250" height="58"></a>
+                    </div>
+                    <div class="header-navigation">
+                        <ul>
+                            <li><a href="https://servicedesk.its.ac.id/index.php/client">Home</a></li>
+                            <li><a href="https://servicedesk.its.ac.id/index.php/client/tickets">Check Tickets</a></li>
+                            <li><a href="https://servicedesk.its.ac.id/index.php/client/knowledge">Knowledge Base</a>
+                            </li>
+                            <li><a
+                                    href="https://servicedesk.its.ac.id/uploads/user_guide/Panduan_Servicedesk_UserClient.pdf">How
+                                    To create Ticket</a></li>
+                            <li><a href="https://servicedesk.its.ac.id/index.php/register"><b
+                                        style="font-weight:bold;">Register an Account</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main konten landing oage -->
+
+    <div class="container content-margin h-100 min-h-100vh" id="content">
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="card card-body my-3  bx-shadow_1">
+                    <h3 class="fs-3"><b>Service</b>Desk</h3>
+                    <p class="text-justify">
+                        Anda dapat menyampaikan keluhan, permintaan bantuan, atau pertanyaan kepada
+                        unit
+                        terkait dengan membuat
+                        tiket (mengisikan form) pada laman ini.
+                    </p>
+                    <p>
+                        Jika Anda belum memiliki akun atau tidak bisa mengakses email ITS, silahkan
+                        <span class="fw-bold"><a
+                                href="https://servicedesk.its.ac.id/index.php/register">REGISTER</a></span> terlebih
+                        dahulu.
+                        <br>
+                        Jika Anda belum pernah membuat tiket, silahkan membaca <span class="fw-bold"><a
+                                href="https://servicedesk.its.ac.id/uploads/user_guide/Panduan_Servicedesk_UserClient.pdf">PETUNJUK</a></span>
+                        terlebih dahulu.
+                    </p>
+                    <div class="alert alert-warning pd-y-5 pd-x-10">
+                        <span class="fs-4">|</span>
+                        <span>
+                            Kami akan merespon tiket Anda pada jam kerja (Senin - Jumat pukul 07.30 - 16.00 WIB).
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 pd-x-0">
+                <div class="card card-body my-3 bx-shadow_1">
+                    <h5 class="tx-montserrat tx-medium">Informasi</h5>
+
+                    <div id="porto1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <span>
+                                    <i data-feather="info" class="mg-r-5">
+                                    </i>
+                                    Mohon maaf. Saat ini website sedang dalam proses pengembangan, baru dapat
+                                    digunakan
+                                    kembali Senin, 11 Maret 2024
+                                </span>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <span>
+                                    <i data-feather="info" class="mg-r-5">
+                                    </i>
+                                    Mohon maaf. Saat ini website sedang dalam proses pengembangan, baru dapat
+                                    digunakan
+                                    kembali Senin, 11 Maret 2024
+                                </span>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <span>
+                                    <i data-feather="info" class="mg-r-5">
+                                    </i>
+                                    Mohon maaf. Saat ini website sedang dalam proses pengembangan, baru dapat
+                                    digunakan
+                                    kembali Senin, 11 Maret 2024
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-xs">
+                        <div class="col-12 col-sm-12 col-lg-12 d-flex justify-content-end">
+                            <a class="btn btn-white mg-r-10" href="#porto1" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon-its" aria-hidden="true"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-chevron-left">
+                                        <polyline points="15 18 9 12 15 6"></polyline>
+                                    </svg></span>
+                                <span class="sr-only">Sebelumnya</span>
+                            </a>
+                            <a class="btn btn-white" href="#porto1" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon-its" aria-hidden="true"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-chevron-right">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg></span>
+                                <span class="sr-only">Selanjutnya</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pd-x-0">
+                <div class="card card-body my-3 bx-shadow_1">
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#direktorat_pendidikan">
+                            <span>
+                                <i data-feather="pocket" class="mg-r-5" width="1.4em"></i>
+                                Kontak Direktorat Pendidikan
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="direktorat_pendidikan">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/62852186819604">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0851-868-1960-4
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/62852186819604">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0851-868-1960-5
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/62852186819604">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0851-868-1960-6
+                                    </a> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#direktorat_pasca">
+                            <span>
+                                <i data-feather="airplay" class="mg-r-5" width="140px"></i>
+                                Kontak Direktorat Pasca Sarjana dan Pengembangan Akademik
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="direktorat_pasca">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6281130500022">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0811-305-0002-2
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="mail" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    Email : simpasca@its.ac.id
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#direktorat_kemahasiswaan">
+                            <span>
+                                <i data-feather="feather" class="mg-r-5" width="140px"></i>
+                                Kontak Direktorat Kemahasiswaan
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="direktorat_kemahasiswaan">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6281249515566">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0812-495-1556-6 - KIP-K
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6281332772014">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0813-327-7201-4 - Jas Almamater
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6282245493201">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0822-454-9320-1 - Call Center Ditmawa
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#dptsi">
+                            <span>
+                                <i data-feather="server" class="mg-r-5" width="140px"></i>
+                                Kontak Direktorat Pengembangan Teknologi dan Sistem Informasi
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="dptsi">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6281133338222">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0811-333-3822-2
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#direktorat_perencanaan">
+                            <span>
+                                <i data-feather="layers" class="mg-r-5" width="140px"></i>
+                                Kontak Direktorat Perencanaan dan Pengembangan
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="direktorat_perencanaan">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6281231223994">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0812-312-2399-4
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn no-scale mg-y-5 btn-white text-left w-100" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#biro_keuangan">
+                            <span>
+                                <i data-feather="dollar-sign" class="mg-r-5" width="140px"></i>
+                                Kontak Biro Keuangan
+                            </span>
+                        </button>
+                        <div class="collapse pd-t-10 pd-b-15" id="biro_keuangan">
+                            <div class="card card-body mg-l-20 pd-y-5">
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/628113612061">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0811-361-2061-
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/6287851890097">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0878-518-9009-7
+                                    </a>
+                                </span>
+                                <span>
+                                    <i data-feather="phone" class="mg-r-5 mg-y-4" width="1em"></i>
+                                    <a href="https://wa.me/628113062061">
+                                        WhatsApp <i class="fs-12">(Text only)</i> 0811-306-2061-
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End konten of landing page -->
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="logo-itsprovement"><img src="./Service Desk _ Layanan Aspirasi ITS_files/logo-itsprovement.png"
+                    width="50" height="60"></div>
+            <p class="text-muted"><a href="https://dptsi.its.ac.id/" target="_blank">Direktorat Pengembangan
+                    Teknologi
+                    Sistem Informasi - ITS</a><span> © 2017 - 2024 </span></p>
+        </div>
+    </footer>
+
+
+    <div id="oca-widget-livechat" style="display: block;"><iframe id="oca-iframe-livechat" tabindex="-1"
+            src="./Service Desk _ Layanan Aspirasi ITS_files/saved_resource(1).html" style="display: none;"
+            class="bottom_right"></iframe>
+        <div class="livechat-wrap-btn bottom_right" id="livechat-wrap-btn">
+            <div><img src="./Service Desk _ Layanan Aspirasi ITS_files/894294.png" class="livechat-logo"
+                    id="livechat-logo"
+                    style="box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 4px; border-radius: 50%; background: white;">
+                <div class="livechat-notif" id="livechat-notif" style="display: none;">0</div>
+            </div>
+        </div>
+    </div>
+    <!-- Landing page script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="assets/js/dashforge.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <!-- landing page script -->
+
+
+    <script type="text/javascript">
+        var emailRegex = '^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$';
+        function checkemail() {
+            var b;
+            var t;
+            var t = document.getElementById("guest_email");
+            var b = false;
+            var str = t.value.toLowerCase();
+            b = str.search("its.ac.id");
+            if (b > 0) {
+                document.getElementById("benar").style.display = 'block';
+                document.getElementById("create").style.display = 'block';
+                $("#salah").hide();
+                return true;
+            } else {
+                document.getElementById("salah").style.display = 'block';
+                document.getElementById("create").style.display = 'none';
+                $("#benar").hide();
+                return false;
+            }
+        }
+        $(document).ready(function () {
+            $('#article-title').autocomplete({
+                delay: 300,
+                minLength: 2,
+                source: function (request, response) {
+                    $.ajax({
+                        type: "GET",
+                        url: global_base_url + "client/get_articles",
+                        data: {
+                            query: request.term
+                        },
+                        success: function (msg) {
+                            if (msg != 0) {
+                                $('#knowledgebase').html(msg);
+                            }
+                        }
+                    });
+                }
+            });
+            CKEDITOR.replace('ticket-body', { height: '200' });
+
+            $('#parent_cat').change(function () {
+                // Get any sub cats
+
+                var parent_cat = $('#parent_cat').val();
+                get_cat_desc(parent_cat);
+                $.ajax({
+                    url: global_base_url + "client/get_sub_cats/" + parent_cat,
+                    type: "get",
+                    data: {
+                    },
+                    success: function (msg) {
+                        $('#sub_cats').html(msg);
+                        load_custom_fields(parent_cat);
+                    }
+                });
+            });
+
+            $('#sub_cats').on("change", "#sub_cat", function () {
+                var catid = $('#sub_cat').val();
+                get_cat_desc(catid);
+                load_custom_fields(catid);
+            });
+
+            function load_custom_fields(parent_cat) {
+                $.ajax({
+                    url: global_base_url + "client/get_custom_fields/" + parent_cat,
+                    type: "get",
+                    data: {
+                    },
+                    success: function (msg) {
+                        $('#custom_fields_extra').html(msg);
+                    }
+                });
+            }
+
+        });
+
+        function get_cat_desc(id) {
+            $.ajax({
+                url: global_base_url + "client/get_category_description/" + id,
+                type: "get",
+                data: {
+                },
+                success: function (msg) {
+                    if (!msg) return;
+                    $('#cat-desc').html(msg);
+                }
+            });
+        }
+
+        function add_file() {
+            var count = $('#file_count').val();
+            count++;
+            var html = '<div class="form-group">' +
+                '<label for="p-in" class="col-md-4 label-heading">Select File</label>' +
+                '<div class="col-md-8">' +
+                '<input type="file" name="user_file_' + count + '" class="form-control">' +
+                '</div>' +
+                '</div>';
+            $('#file_block').append(html);
+            $('#file_count').val(count);
+        }
+        $(document).on("keypress", 'form', function (e) {
+            var code = e.keyCode || e.which;
+            console.log(code);
+            if (code == 13) {
+                console.log('Inside');
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+    <!-- Modal -->
+
+    <script>
+        $('#modal').modal('show');
+    </script>
+
+
+    <script type="text/javascript">
+        (function () {
+            let s1 = document.createElement('script'),
+                s0 = document.getElementsByTagName('script')[0];
+            s1.async = true;
+            s1.src = 'https://livechat.ocaindonesia.co.id/widget-min.js';
+            s1.setAttribute('license',
+                '652e8a5e206cc90012329aa6');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+</body>
+
+</html>

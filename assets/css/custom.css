@@ -1,0 +1,29 @@
+.bx-shadow_1 {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn.collapse-btn {
+    max-height: max-content;
+    height: 100% !important;
+}
+
+.min-h-100vh {
+    min-height: 100vh;
+}
+
+body {
+    height: max-content !important;
+}
+
+/* font size */
+.fs-8 {
+    font-size: 8px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
